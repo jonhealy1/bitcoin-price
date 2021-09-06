@@ -22,6 +22,61 @@
   (major1) == 4 && (major2) == 14 && (minor) <= 3)
 #endif /* MIN_VERSION_base */
 
+/* package bytestring-0.10.12.0 */
+#ifndef VERSION_bytestring
+#define VERSION_bytestring "0.10.12.0"
+#endif /* VERSION_bytestring */
+#ifndef MIN_VERSION_bytestring
+#define MIN_VERSION_bytestring(major1,major2,minor) (\
+  (major1) <  0 || \
+  (major1) == 0 && (major2) <  10 || \
+  (major1) == 0 && (major2) == 10 && (minor) <= 12)
+#endif /* MIN_VERSION_bytestring */
+
+/* package http-conduit-2.3.8 */
+#ifndef VERSION_http_conduit
+#define VERSION_http_conduit "2.3.8"
+#endif /* VERSION_http_conduit */
+#ifndef MIN_VERSION_http_conduit
+#define MIN_VERSION_http_conduit(major1,major2,minor) (\
+  (major1) <  2 || \
+  (major1) == 2 && (major2) <  3 || \
+  (major1) == 2 && (major2) == 3 && (minor) <= 8)
+#endif /* MIN_VERSION_http_conduit */
+
+/* package lens-4.19.2 */
+#ifndef VERSION_lens
+#define VERSION_lens "4.19.2"
+#endif /* VERSION_lens */
+#ifndef MIN_VERSION_lens
+#define MIN_VERSION_lens(major1,major2,minor) (\
+  (major1) <  4 || \
+  (major1) == 4 && (major2) <  19 || \
+  (major1) == 4 && (major2) == 19 && (minor) <= 2)
+#endif /* MIN_VERSION_lens */
+
+/* package lens-aeson-1.1.1 */
+#ifndef VERSION_lens_aeson
+#define VERSION_lens_aeson "1.1.1"
+#endif /* VERSION_lens_aeson */
+#ifndef MIN_VERSION_lens_aeson
+#define MIN_VERSION_lens_aeson(major1,major2,minor) (\
+  (major1) <  1 || \
+  (major1) == 1 && (major2) <  1 || \
+  (major1) == 1 && (major2) == 1 && (minor) <= 1)
+#endif /* MIN_VERSION_lens_aeson */
+
+/* package text-1.2.4.1 */
+#ifndef VERSION_text
+#define VERSION_text "1.2.4.1"
+#endif /* VERSION_text */
+#ifndef MIN_VERSION_text
+#define MIN_VERSION_text(major1,major2,minor) (\
+  (major1) <  1 || \
+  (major1) == 1 && (major2) <  2 || \
+  (major1) == 1 && (major2) == 2 && (minor) <= 4)
+#endif /* MIN_VERSION_text */
+
 /* tool gcc-12.0.5 */
 #ifndef TOOL_VERSION_gcc
 #define TOOL_VERSION_gcc "12.0.5"
@@ -111,7 +166,7 @@
 #endif /* MIN_TOOL_VERSION_runghc */
 
 #ifndef CURRENT_COMPONENT_ID
-#define CURRENT_COMPONENT_ID "bitcoin-price-0.1.0.0-HOIYripbnf43g8PeP0Cxpn-bitcoin-price"
+#define CURRENT_COMPONENT_ID "bitcoin-price-0.1.0.0-24zb8TcKmKBDrmkjmesdE3-bitcoin-price"
 #endif /* CURRENT_COMPONENT_ID */
 #ifndef CURRENT_PACKAGE_VERSION
 #define CURRENT_PACKAGE_VERSION "0.1.0.0"

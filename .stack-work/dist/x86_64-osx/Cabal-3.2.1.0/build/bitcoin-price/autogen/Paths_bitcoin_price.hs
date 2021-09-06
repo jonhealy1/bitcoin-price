@@ -30,7 +30,7 @@ version = Version [0,1,0,0] []
 bindir, libdir, dynlibdir, datadir, libexecdir, sysconfdir :: FilePath
 
 bindir     = "/Users/comp/haskell/bitcoin-price/.stack-work/install/x86_64-osx/8c86912137a1df9c27765d389baa2e80dc82153a9ea5eba583a95991a8f04f43/8.10.6/bin"
-libdir     = "/Users/comp/haskell/bitcoin-price/.stack-work/install/x86_64-osx/8c86912137a1df9c27765d389baa2e80dc82153a9ea5eba583a95991a8f04f43/8.10.6/lib/x86_64-osx-ghc-8.10.6/bitcoin-price-0.1.0.0-HOIYripbnf43g8PeP0Cxpn-bitcoin-price"
+libdir     = "/Users/comp/haskell/bitcoin-price/.stack-work/install/x86_64-osx/8c86912137a1df9c27765d389baa2e80dc82153a9ea5eba583a95991a8f04f43/8.10.6/lib/x86_64-osx-ghc-8.10.6/bitcoin-price-0.1.0.0-24zb8TcKmKBDrmkjmesdE3-bitcoin-price"
 dynlibdir  = "/Users/comp/haskell/bitcoin-price/.stack-work/install/x86_64-osx/8c86912137a1df9c27765d389baa2e80dc82153a9ea5eba583a95991a8f04f43/8.10.6/lib/x86_64-osx-ghc-8.10.6"
 datadir    = "/Users/comp/haskell/bitcoin-price/.stack-work/install/x86_64-osx/8c86912137a1df9c27765d389baa2e80dc82153a9ea5eba583a95991a8f04f43/8.10.6/share/x86_64-osx-ghc-8.10.6/bitcoin-price-0.1.0.0"
 libexecdir = "/Users/comp/haskell/bitcoin-price/.stack-work/install/x86_64-osx/8c86912137a1df9c27765d389baa2e80dc82153a9ea5eba583a95991a8f04f43/8.10.6/libexec/x86_64-osx-ghc-8.10.6/bitcoin-price-0.1.0.0"
