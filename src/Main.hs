@@ -7,6 +7,7 @@ import           Control.Lens                   ( preview )
 import           Data.Aeson.Lens                ( key, _String )
 import qualified Data.ByteString.Char8         as BS
 import           Data.Text                      ( Text )
+import qualified Data.Text.IO                  as TIO
 
 fetchJSON :: IO BS.ByteString
 fetchJSON = do
@@ -19,4 +20,7 @@ getRate = preview (key "bpi" . key "USD" . key "rate" . _String)
 main :: IO ()
 main = do
   json <- fetchJSON
-  print (getRate json)
+
+  case getRate json of
+    Nothing   -> TIO.putStrLn "Could not find the Bitcoin rate :("
+    Just rate -> TIO.putStrLn $ "The current Bitcoin rate is " <> rate <> " $"
